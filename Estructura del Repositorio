@@ -6,10 +6,12 @@ log-optimizer-cli/
 ├── utils.py
 ├── tests/
 │   ├── test_filters.py
-│   ├── test_exporter.py
-│   └── ...
-├── README.md
-├── requirements.txt
+│   └── test_exporter.py
 ├── .gitignore
 ├── .gitattributes
 ├── LICENSE
+├── README.md
+├── requirements.txt
+├── pyproject.toml
+├── Makefile
+├── tox.ini
