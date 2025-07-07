@@ -1,0 +1,15 @@
+log-optimizer-cli/
+├── main.py
+├── filters.py
+├── exporter.py
+├── logger.py
+├── utils.py
+├── tests/
+│   ├── test_filters.py
+│   ├── test_exporter.py
+│   └── ...
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── .gitattributes
+├── LICENSE
