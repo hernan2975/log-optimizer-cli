@@ -1,0 +1,19 @@
+[project]
+name = "log-optimizer-cli"
+version = "0.1.0"
+description = "CLI para análisis, filtrado y exportación de logs de servidor"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Hernán", email = "hernan@example.com" }]
+
+dependencies = [
+    "click>=8.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+addopts = "-ra -q"
+testpaths = ["tests"]
